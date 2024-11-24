@@ -1,0 +1,9 @@
+@keyframes rotateEffect {
+  from {
+    transform: rotate(15deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

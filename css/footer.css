@@ -1,0 +1,19 @@
+footer {
+  background-color: #21242e;
+}
+
+.legal {
+  padding: 12px;
+  display: grid;
+}
+.legal_left {
+  display: flex;
+  gap: 5px;
+  justify-content: left;
+  align-items: center;
+}
+
+.text_white {
+  color: white;
+  padding: 0px;
+}

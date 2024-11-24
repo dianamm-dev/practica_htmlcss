@@ -1,0 +1,127 @@
+header {
+  background-color: #21242e;
+}
+
+.contact {
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+}
+.contact_centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  padding: 0px;
+  display: grid;
+  margin-bottom: 25px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.submenu {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: 100%;
+  align-content: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+li {
+  align-content: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 15px;
+  color: #fa573a;
+}
+
+.text_white {
+  color: white;
+  padding: 0px;
+}
+
+.logo {
+  width: auto;
+  height: 35px;
+}
+
+.menu_item {
+  color: grey;
+  text-align: center;
+}
+
+.menu_item:hover {
+  color: #fa573a;
+}
+
+.xs_hamb {
+  width: 35px;
+}
+
+.xs_submenu {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, 25%);
+  gap: 10px;
+}
+
+.menu_separator {
+  border-bottom: 1px solid grey;
+  margin-top: 10px;
+}
+
+.text_black {
+  color: black;
+  padding: 0px;
+}
+
+.text_orange {
+  color: #fa573a;
+  padding: 0px;
+}
+
+.text_grey {
+  color: grey;
+  padding: 0px;
+  text-align: left;
+}
+
+.text_custom {
+  font-family: "Handlee", cursive;
+  font-size: 28px;
+}
+
+.line-container {
+  position: absolute;
+  margin-top: 37.5px;
+  width: 90px;
+  height: 2px;
+  background-color: #fa573a;
+}
+
+.x-mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-weight: bold;
+  color: #fa573a;
+}
+
+.without_underline {
+  text-decoration: none;
+}

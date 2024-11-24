@@ -1,0 +1,16 @@
+.scroll_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fa573a;
+  margin-bottom: 40px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text_transparent {
+  background-color: transparent;
+}

@@ -1,0 +1,40 @@
+@media (width <= 768px) {
+  .lg_submenu {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .presection_2b,
+  .presection_3b {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .horizontal_line {
+    display: none;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .legal_left {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+}
+
+@media (width > 768px) {
+  .xs_hamb {
+    display: none;
+  }
+  .xs_submenu {
+    display: none;
+  }
+}
+@media (width > 1250px) {
+  .centered {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}
